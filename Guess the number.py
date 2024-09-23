@@ -13,7 +13,7 @@ def guess(x): # x is a parameter we can pass into a random get number function
         guess = int(input(f'Guess a number between 1 and {x}: '))
         # now, we're going to add IF statements, so that the computer can guide us in the right direction when we guess
         if guess < random_number:
-            print('Sorry, guess again. Too low. ')
+            print('Sorry, guess again. Too low.')
         elif guess > random_number:
             print('Sorry, guess again. Too high')
         # if the computer doesn't say too high or too low, that means you've hit the random number!

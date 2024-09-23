@@ -19,3 +19,9 @@ Try to beat the computer in under 3 tries, while it guesses a number between 1 a
 
 Alternatively of the last script, we're going to flip the script onto the computer, and have guess our number. Using functions and while loops, we've gotten the computer to guess our random, and we've also guessed the computers random number!
 
+#4 - **Rock Paper Scissors**
+
+A super simple rock paper scissors game using the `random` package once in a different way than the previous games (#2 and #3).
+
+This time, we're giving the computer a choice of 3 random inputs, (R,P,S) and building a function to determine the next steps after user input.
+ 
