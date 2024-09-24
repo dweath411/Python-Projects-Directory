@@ -35,3 +35,9 @@ The first step of this game is to get the computer to figure out a word for us t
 
 Also, we'll import `string` for its alphabet. Of course, for hangman, you'll want some aspect of the game, meaning you don't get unlimited tries. So that will be included in this script as well.
 
+#6 **Tic-Tac-Toe**
+
+A command line version of everyones favorite game, Tic-Tac-Toe. In this game, either a human can play, or the computer can play. A person can play against another person or the computer, and a computer can even play against another computer. To do this, we're going to split up the player in the game into two separate classes. 
+When the game is created, you can tell game that what player is 'x' and what player is 'o'.
+
+This game features a plethora of user defined functions that help make the game run smoothly and efficiently.
