@@ -33,5 +33,5 @@ We'll be using the `random` package again.
 The first step of this game is to get the computer to figure out a word for us to guess, from the list 5000 words. 
 *However*, in this list of words, some of the words have dashes (like "black-and-white") or spaces between them - which means we can't use those to play hangman! So we'll have to find a way to bypass that, meaning we'll find valid words and use those only.
 
-Also, we'll import `string` for its alphabet. Of course, for hangman, you'll want some aspect of the game, meaning you don't get unlimited tries and visualizations! So that will be included in this script as well.
+Also, we'll import `string` for its alphabet. Of course, for hangman, you'll want some aspect of the game, meaning you don't get unlimited tries. So that will be included in this script as well.
 
