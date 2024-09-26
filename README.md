@@ -42,7 +42,7 @@ When the game is created, you can tell game that what player is 'x' and what pla
 
 This game features a plethora of user defined functions that help make the game run smoothly and efficiently.
 
-# **Unwinnable Tic-Tac-Toe! (AI)**
+#7 **Unwinnable Tic-Tac-Toe! (AI)**
 
 We've done one version of a tic-tac-toe game. How about we up the ante, and make the game unwinnable? You can tie, but you can never win! To do this, we'll introduce `minimax`.
 
