@@ -41,3 +41,13 @@ A command line version of everyones favorite game, Tic-Tac-Toe. In this game, ei
 When the game is created, you can tell game that what player is 'x' and what player is 'o'.
 
 This game features a plethora of user defined functions that help make the game run smoothly and efficiently.
+
+# **Unwinnable Tic-Tac-Toe! (AI)**
+
+We've done one version of a tic-tac-toe game. How about we up the ante, and make the game unwinnable? You can tie, but you can never win! To do this, we'll introduce `minimax`.
+
+minimax is a decision making algorithm built off of a maximizer and minimizer concept. You essentially are trying to maximize your win while your opponent is trying to minimize their loss. With tic-tac-toe, we can step though each state and see how minimax might help us win.
+
+In minimmax, we are trying to find the best move to make. We can determine this by deducing which move is the most optimal. To do this, we'll use a `utility` function, a measurement of how valuable the final result in that decision tree is.
+
+There will be some overlap of code in these files as the last tic-tac-toe files.
