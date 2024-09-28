@@ -54,8 +54,10 @@ There will be some overlap of code in these files as the last tic-tac-toe files.
 
 #8 **Binary Search**
 What is Binary Search? Binary Search algorithm is a divide and conquer type of algorithm. It helps you search an ordered list in a faster way than scanning every single element in the list. 
+
 An example of how Binary Search works:
 Assume there is some list of ordered elements we have, from least to greatest. We're trying to see if a target is in the list, and if it is, return the index of where it is. 
+
 In Binary Search, we can go to the middle elemnt of the list and ask, "Is the target equal to, less than, or greater than this middle element. If it's equal to, then that's our element. If it's less than, then we know it has to be on the left side of that element, so we can completely disregard everything to the right (greater than) of the middle element. Vice versa for if it is greater than that middle element. Reiterate. Divide and conquer! We will prove that Binary Search is faster than Naive Search (iterating through a list and asking "is this my element?" one by one until it's reached.)
 
 #9 **Minesweeper**
