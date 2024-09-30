@@ -15,7 +15,7 @@ class TicTacToe:
         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
             print('| ' + ' | '.join(row) + ' |') # join the string where the separator is a vertical line
     
-    @staticmethod 
+    @staticmethod
     # use a staticmethod because this part doesn't relate to any specific board
     # don't have to pass in a 'self'
     # print out which numbers correspond to which spot
@@ -43,10 +43,12 @@ class TicTacToe:
         # checking the number of empty squares
         return self.board.count(' ') # counts the number of spaces on the board
     
-    def make_move(self, square, letter): 
-        # we need information on what square the user wants their move to be at
-        # if the move is valid, then we can make the move and return True
-        # if invalid, just return False (this shouldn't happen)
+    def make_move(self, square, letter):
+        ''' 
+        we need information on what square the user wants their move to be at
+        if the move is valid, then we can make the move and return True
+        if invalid, just return False (this shouldn't happen)
+        '''
         if self.board[square] == ' ': # if self.board(square) is empty, then assign that letter to that given square
             self.board[square] = letter 
             print(f'Made move {letter} at square {square}')  # Debugging: Print the move
@@ -127,45 +129,6 @@ def play(game, x_player, o_player, print_game=True):
     # If the loop ends and there is no winner, it's a tie
     if print_game:
         print('It\'s a tie!')
-
-# def play(game, x_player, o_player, print_game=True): 
-#     # returns the winner of the game (The letter), or None for a tie
-#     if print_game:
-#         game.print_board_nums()  # print numbers corresponding to board positions
-#     letter = 'X'  # starting letter
-    
-#     # iterate while the game still has empty squares
-#     # there is no need to worry about the winner because we'll return that, which then breaks the loop
-#     while game.empty_squares():
-#         # get the move from the appropriate player
-#         if letter == 'O':
-#             square = o_player.get_move(game) # if the letter is the O player, prompt them to make a move
-#         else:
-#             square = x_player.get_move(game)  # if it's not letter O, then it must be the X player, so prompt them to get a move
-
-#         if game.make_move(square, letter):
-#             if print_game:
-#                 print(f'{letter} makes a move to square {square}')
-#                 game.print_board() # new representation of the board
-#                 print('')  # empty line for spacing
-
-# # if current_winner is not set to None anymore, then a letter has won
-#             if game.current_winner:
-#                 if print_game:
-#                     print(letter + ' wins!')
-#                 return letter  # exit the function when someone wins
-
-#             # alternate between X and O
-#             letter = 'O' if letter == 'X' else 'X'
-#               # if letter == 'X':
-#                 # letter = 'O'
-#             # else:
-#                 # letter = 'X'
-#         time.sleep(0.8)  # tiny pause so the game doesn't progress too fast
-
-#     # If the loop ends and there is no winner, it's a tie
-#     if print_game:
-#         print('It\'s a tie!')
 
 
 # play game

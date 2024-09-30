@@ -63,3 +63,25 @@ In Binary Search, we can go to the middle elemnt of the list and ask, "Is the ta
 #9 **Minesweeper**
 
 Next up - Minesweeper. To make this command line minesweeper game, we're going to be using recursion and classes. This is explicitly a very bare bones command line version of the game. Potentially, I'll decide to make improvements to the game in the future. This is strictly for practice on learning to code, translating ideas and translating algorithms into Python code.
+
+#10 **Sudoku Solver**
+
+A Sudoku solver using backtracking, recursion, and mutation. Mostly simple project, if you give it a board it will solve the puzzle. The important part is knowing how to format the board and make it clearly viewable.
+
+If this is your example board:
+
+`    example_board = [
+        [3, 9, -1,   -1, 5, -1,   -1, -1, -1],
+        [-1, -1, -1,   2, -1, -1,   -1, -1, 5],
+        [-1, -1, -1,   7, 1, 9,   -1, 8, -1],
+
+        [-1, 5, -1,   -1, 6, 8,   -1, -1, -1],
+        [2, -1, 6,   -1, -1, 3,   -1, -1, -1],
+        [-1, -1, -1,   -1, -1, -1,   -1, -1, 4],
+
+        [5, -1, -1,   -1, -1, -1,   -1, -1, -1],
+        [6, 7, -1,   1, -1, 5,   -1, 4, -1],
+        [1, -1, 9,   -1, -1, -1,   2, -1, -1]
+    ]
+`
+It should run smoothly, of course you can change the numbers how you see fit though. When you run it in the terminal, you'll have to resize your screen so it looks like a normal sudoku board. The program will return True if the puzzle is solved, otherwise, it will be False.
