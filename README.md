@@ -69,8 +69,8 @@ Next up - Minesweeper. To make this command line minesweeper game, we're going t
 A Sudoku solver using backtracking, recursion, and mutation. Mostly simple project, if you give it a board it will solve the puzzle. The important part is knowing how to format the board and make it clearly viewable.
 
 If this is your example board:
-
-`    example_board = [
+ 
+  example_board = [
         [3, 9, -1,   -1, 5, -1,   -1, -1, -1],
         [-1, -1, -1,   2, -1, -1,   -1, -1, 5],
         [-1, -1, -1,   7, 1, 9,   -1, 8, -1],
@@ -83,5 +83,5 @@ If this is your example board:
         [6, 7, -1,   1, -1, 5,   -1, 4, -1],
         [1, -1, 9,   -1, -1, -1,   2, -1, -1]
     ]
-`
+
 It should run smoothly, of course you can change the numbers how you see fit though. When you run it in the terminal, you'll have to resize your screen so it looks like a normal sudoku board. The program will return True if the puzzle is solved, otherwise, it will be False.
