@@ -71,6 +71,7 @@ A Sudoku solver using backtracking, recursion, and mutation. Mostly simple proje
 If this is your example board:
  
   example_board = [
+    
         [3, 9, -1,   -1, 5, -1,   -1, -1, -1],
         [-1, -1, -1,   2, -1, -1,   -1, -1, 5],
         [-1, -1, -1,   7, 1, 9,   -1, 8, -1],
