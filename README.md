@@ -1,7 +1,7 @@
-# **Overview**
+## 1. **Overview**
 This directory contains a set of Python projects aimed at improving programming skills through practical coding challenges. The projects range from classic games to well-known algorithms. They focus on key techniques such as recursion, class design, and algorithm optimization.
 
-## Projects included:
+### Projects included:
 
 **Madlibs**: A simple fill in the blank word game.
 
@@ -19,16 +19,23 @@ This directory contains a set of Python projects aimed at improving programming 
 
 **Sudoku Solver**: A recursive approach to solving Sudoku puzzles.
 
-The following projects will have their own documentation, as they are a bit more extensive than the rest: Tic-Tac-Toe, Hangman, Minesweeper, Binary Search, and Sodoku Solver.
+## 2. **Getting started**
+To get started with these projects:
+1. clone the repository: `git clone https://github.com/dweath411/Python-Projects-Directory.git`
+2. Navigate into the directory: `cd Python-Projects-Directory`
+3.  Ensure that Python 3.x is installed.
+4.  Enjoy playing the games!
 
-#1 - **Madlibs**
+## 3. **Descriptions**
+
+#### 3.1 - **Madlibs**
 
 In a traditional Madlib, you have a bunch of blanks in a paragraph. Somebody would fill out those blanks, then read the paragraph out loud with the words that they chose in those blanks.
 
 This project is completed using the concept of string concatenation.
 For our madlib, we define 1 adjective, 2 verbs, and 1 noun to complete our string.
 
-#2 - **Guess the number (Computer)**
+#### 3.2 - **Guess the number (Computer)**
 
 Here, we create a guessing game you can play, but the computer has the secret number! Our goal is to attempt to guess that number.
 
@@ -38,17 +45,17 @@ In this script, we're starting to implement looping methods, with `while`, `if`,
 
 Try to beat the computer in under 3 tries, while it guesses a number between 1 and 10!
 
-#3 - **Guess the number (User)**
+#### 3.3 - **Guess the number (User)**
 
 Alternatively of the last script, we're going to flip the script onto the computer, and have guess our number. Using functions and while loops, we've gotten the computer to guess our random, and we've also guessed the computers random number!
 
-#4 - **Rock Paper Scissors**
+#### 3.4 - **Rock Paper Scissors**
 
 A super simple rock paper scissors game using the `random` package once in a different way than the previous games (#2 and #3).
 
 This time, we're giving the computer a choice of 3 random inputs, (R,P,S) and building a function to determine the next steps after user input.
  
-#5 - **Hangman**
+#### 3.5 - **Hangman**
 
 A game of hangman that utilizes random word choice. In this game, we'll use a separate python file of 5000 random English words to read in and play hangman with. `hangman_words.py`.
 We'll be using the `random` package again.
@@ -58,14 +65,14 @@ The first step of this game is to get the computer to figure out a word for us t
 
 Also, we'll import `string` for its alphabet. Of course, for hangman, you'll want some aspect of the game, meaning you don't get unlimited tries. So that will be included in this script as well.
 
-#6 **Tic-Tac-Toe**
+#### 3.6 **Tic-Tac-Toe**
 
 A command line version of everyones favorite game, Tic-Tac-Toe. In this game, either a human can play, or the computer can play. A person can play against another person or the computer, and a computer can even play against another computer. To do this, we're going to split up the player in the game into two separate classes. 
 When the game is created, you can tell game that what player is 'x' and what player is 'o'.
 
 This game features a plethora of user defined functions that help make the game run smoothly and efficiently.
 
-#7 **Unwinnable Tic-Tac-Toe! (AI)**
+#### 3.7 **Unwinnable Tic-Tac-Toe! (AI)**
 
 We've done one version of a tic-tac-toe game. How about we up the ante, and make the game unwinnable? You can tie, but you can never win! To do this, we'll introduce `minimax`.
 
@@ -75,7 +82,7 @@ In minimmax, we are trying to find the best move to make. We can determine this 
 
 There will be some overlap of code in these files as the last tic-tac-toe files.
 
-#8 **Binary Search**
+#### 3.8 **Binary Search**
 What is Binary Search? Binary Search algorithm is a divide and conquer type of algorithm. It helps you search an ordered list in a faster way than scanning every single element in the list. 
 
 An example of how Binary Search works:
@@ -83,11 +90,11 @@ Assume there is some list of ordered elements we have, from least to greatest. W
 
 In Binary Search, we can go to the middle elemnt of the list and ask, "Is the target equal to, less than, or greater than this middle element. If it's equal to, then that's our element. If it's less than, then we know it has to be on the left side of that element, so we can completely disregard everything to the right (greater than) of the middle element. Vice versa for if it is greater than that middle element. Reiterate. Divide and conquer! We will prove that Binary Search is faster than Naive Search (iterating through a list and asking "is this my element?" one by one until it's reached.)
 
-#9 **Minesweeper**
+#### 3.9 **Minesweeper**
 
 Next up - Minesweeper. To make this command line minesweeper game, we're going to be using recursion and classes. This is explicitly a very bare bones command line version of the game. Potentially, I'll decide to make improvements to the game in the future. This is strictly for practice on learning to code, translating ideas and translating algorithms into Python code.
 
-#10 **Sudoku Solver**
+#### 3.10 **Sudoku Solver**
 
 A Sudoku solver using backtracking, recursion, and mutation. Mostly simple project, if you give it a board it will solve the puzzle. The important part is knowing how to format the board and make it clearly viewable.
 
@@ -110,5 +117,10 @@ If this is your example board:
 
 It should run smoothly, of course you can change the numbers how you see fit though. When you run it in the terminal, you'll have to resize your screen so it looks like a normal sudoku board. The program will return True if the puzzle is solved, otherwise, it will be False.
 
+## 4. **Further Resources**
 
+[Python Official Documentation](https://docs.python.org/3/)
 
+[Backtracking Algorithm](https://en.wikipedia.org/wiki/Backtracking)
+
+[Beginner Python Project Tutorials](https://www.youtube.com/watch?v=8ext9G7xspg&list=LL&index=1&pp=gAQBiAQB)
