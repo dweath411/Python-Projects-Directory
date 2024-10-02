@@ -1,3 +1,26 @@
+# **Overview**
+This directory contains a set of Python projects aimed at improving programming skills through practical coding challenges. The projects range from classic games to well-known algorithms. They focus on key techniques such as recursion, class design, and algorithm optimization.
+
+## Projects included:
+
+**Madlibs**: A simple fill in the blank word game.
+
+**Tic-Tac-Toe**: A game with an AI that uses the Minimax algorithm.
+
+**Hangman**: A word guessing game.
+
+**Guess the number**: A game seeing who can guess the number at random.
+
+**Rock-Paper-Scissors**: Classic game of RPS.
+
+**Minesweeper**: A grid-based puzzle game.
+
+**Binary Search**: An efficient search algorithm for sorted arrays.
+
+**Sudoku Solver**: A recursive approach to solving Sudoku puzzles.
+
+The following projects will have their own documentation, as they are a bit more extensive than the rest: Tic-Tac-Toe, Hangman, Minesweeper, Binary Search, and Sodoku Solver.
+
 #1 - **Madlibs**
 
 In a traditional Madlib, you have a bunch of blanks in a paragraph. Somebody would fill out those blanks, then read the paragraph out loud with the words that they chose in those blanks.
